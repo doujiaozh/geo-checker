@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 GEO-Checker: See your brand the way AI sees it.
 
-## Getting Started
+As traditional SEO dies, **Generative Engine Optimization (GEO)** is the new battlefield. Ever wondered what ChatGPT, Claude, or DeepSeek actually says about your product? 
 
-First, run the development server:
+**GEO-Checker** is an open-source AI visibility dashboard that audits your brand across 3 core dimensions:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Product Knowledge**: What is your brand?
+2. **Competitor Mentions**: Who does the AI consider your rivals?
+3. **Official Citations**: Does the AI trust your official sources?
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## ✨ Features
 
-To learn more about Next.js, take a look at the following resources:
+- ⚡️ **Concurrent Auditing**: Queries multiple LLMs (e.g., DeepSeek, OpenAI, Gemini) in parallel using `Promise.all`.
+- 🎨 **Beautiful UI**: Built with Next.js 15, Tailwind CSS, and designed for the AI era.
+- 🏷️ **Smart Extraction**: Automatically parses unstructured LLM text into clean JSON, rendering competitors as tags and sources as clickable links.
+- 🔌 **OpenAI Compatible**: Works seamlessly with any OpenAI-compatible endpoint.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠️ Quick Start
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+1. Clone the repo and install dependencies:
+
+   ```bash
+   npm install
+   ```
