@@ -1,5 +1,8 @@
 # 🚀 GEO-Checker: See your brand the way AI sees it.
 
+🔗 **[Live Demo: Try it out here!](https://geo-checker-five.vercel.app)**
+
+
 As traditional SEO dies, **Generative Engine Optimization (GEO)** is the new battlefield. Ever wondered what ChatGPT, Claude, or DeepSeek actually says about your product? 
 
 **GEO-Checker** is an open-source AI visibility dashboard that audits your brand across 3 core dimensions:
